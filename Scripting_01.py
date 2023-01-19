@@ -37,7 +37,7 @@ def OrganizeDir():
         #print(filePath)
 
         #print(filePath.suffix)
-        ext = filePath.suffix.lower()
+        ext = filePath.suffix.lower() #this will give the file extension type
         folder  = findFolder(ext)
         folderPath = Path(folder)
         if folderPath.is_dir() != True:
